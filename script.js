@@ -13,6 +13,8 @@ generateBtn.addEventListener("click", function() {
 }
 );
 
+
+
 //user input variables:
 var passLength = document.querySelector('input[name="length"]');
 var lowerCase = document.querySelector('input[name="lowercase"]');
@@ -28,18 +30,25 @@ const key_strings = {
 };
 
 // Add event listener to get button
-getBtn.addEventListener("click", () => {
-	var length = + passLength.value;
-	var activeLower = lowerCase.checked;
-	var activeUpper = upperCase.checked;
-	var activeNumber = number.checked;
-	var activeSymbol = symbol.checked; 
-  
-  generatePassword(activeLower, activeUpper, activeNumber, activeSymbol, length)
-});
+//getBtn.addEventListener("click", function () {
+ // ps = generateRandomPassword();
+  //document.getElementById("password").placeholder = ps;
+//});
 
-// Write password to the #password input
-function generatePassword(lower, upper, num, sym, length) {
+getBtn.addEventListener("click", () => {
+  var length = +passLength.value;
+  var activeLower = lowerCase.checked;
+  var activeUpper = upperCase.checked;
+  var activeNumber = number.checked;
+  var activeSymbol = symbol.checked;
+
+  generateRandomPassword(activeLower, activeUpper, activeNumber, activeSymbol, length);
+
+});
+  
+
+// function to generate password
+function generateRandomPassword(lower, upper, num, sym, length) {
   let MAIN_STRING = "";
   let PASSWORD = "";
 
@@ -65,14 +74,13 @@ function generatePassword(lower, upper, num, sym, length) {
 		document.getElementById("password").value = "Define the length!";
 	}
 	
+  var password = [];
 
-  // selects the html elemennt with the id password
-  var passwordText = document.getElementById("password");
-
-  passwordText.value = password;
-
+  var ps = password.join("");
+  UserInput(ps);
+  return ps;
 }
 
-
-
-
+  function UserInput(ps) {
+    document.getElementById("password").textContent = ps;
+  }
