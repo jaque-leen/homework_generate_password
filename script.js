@@ -59,6 +59,7 @@ function generateRandomPassword(lower, upper, num, sym, length) {
     symbol: sym
   }
 
+  var i
   for(i=0;i<Object.keys(options).length;i++){
 		MAIN_STRING += (Object.values(options)[i]) ? key_strings[Object.keys(options)[i]] : "";
 	}
