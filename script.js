@@ -69,7 +69,7 @@ function generateRandomPassword(lower, upper, num, sym, length) {
 			PASSWORD += MAIN_STRING[Math.floor(Math.random() * MAIN_STRING.length)];
 		}
 		
-		document.getElementById("password").value = password;
+		document.getElementById("password").value = PASSWORD;
 		
 	}else{
 		document.getElementById("password").value = "Define the length!";
