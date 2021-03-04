@@ -9,8 +9,12 @@ Application that enables employees to generate random passwords based on criteri
 
 The following image shows the web application's apperance and functionality:
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
+![The Password Generator application displays a red button to "Generate Password".](./Assets/GenPassword.png)
+
+![The upon slecting password criteria, Password Generator application displays a red button to "Get Password".](./Assets/GetPassword.png)
 
 ## Link
 
-xxx
+Deployed GitHub IO: https://jaque-leen.github.io/homework_generate_password/
+
+GitHub Repository: https://github.com/jaque-leen/homework_generate_password.git
