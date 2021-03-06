@@ -13,6 +13,7 @@ The following image shows the web application's apperance and functionality:
 
 ![The upon slecting password criteria, Password Generator application displays a red button to "Get Password".](./assets/GetPassword.png)
 
+![Geneared password appears after "Get Password" button is clicked.](./assets/GetPassword2.png)
 ## Link
 
 Deployed GitHub IO: https://jaque-leen.github.io/homework_generate_password/
