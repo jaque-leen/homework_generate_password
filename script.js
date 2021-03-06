@@ -59,6 +59,7 @@ function generateRandomPassword(lower, upper, num, sym, length) {
     symbol: sym
   }
 
+  var i
   for(i=0;i<Object.keys(options).length;i++){
 		MAIN_STRING += (Object.values(options)[i]) ? key_strings[Object.keys(options)[i]] : "";
 	}
@@ -68,7 +69,7 @@ function generateRandomPassword(lower, upper, num, sym, length) {
 			PASSWORD += MAIN_STRING[Math.floor(Math.random() * MAIN_STRING.length)];
 		}
 		
-		document.getElementById("password").value = password;
+		document.getElementById("password").value = PASSWORD;
 		
 	}else{
 		document.getElementById("password").value = "Define the length!";
