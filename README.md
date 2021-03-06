@@ -14,10 +14,10 @@ The following image shows the web application's apperance and functionality:
 
 
 ![The upon slecting password criteria, Password Generator application displays a red button to "Get Password".](./assets/GetPassword.png)
-<img src="https://github.com/jaque-leen/homework_generate_password/blob/56acabd014a6115b9a91db0255a2ec3fca3a4e7a/assets/GenPassword.PNG" alt="https://github.com/jaque-leen/homework_generate_password/blob/56acabd014a6115b9a91db0255a2ec3fca3a4e7a/assets/GetPassword.PNG">
+<img src="https://github.com/jaque-leen/homework_generate_password/blob/56acabd014a6115b9a91db0255a2ec3fca3a4e7a/assets/GetPassword.PNG" alt="https://github.com/jaque-leen/homework_generate_password/blob/56acabd014a6115b9a91db0255a2ec3fca3a4e7a/assets/GetPassword.PNG">
 
 ![Geneared password appears after "Get Password" button is clicked.](./assets/GetPassword2.png)
-<img src="https://github.com/jaque-leen/homework_generate_password/blob/56acabd014a6115b9a91db0255a2ec3fca3a4e7a/assets/GenPassword.PNG" alt="https://github.com/jaque-leen/homework_generate_password/blob/56acabd014a6115b9a91db0255a2ec3fca3a4e7a/assets/GetPassword2.PNG">
+<img src="https://github.com/jaque-leen/homework_generate_password/blob/56acabd014a6115b9a91db0255a2ec3fca3a4e7a/assets/GetPassword2.PNG" alt="https://github.com/jaque-leen/homework_generate_password/blob/56acabd014a6115b9a91db0255a2ec3fca3a4e7a/assets/GetPassword2.PNG">
 ## Link
 
 Deployed GitHub IO: https://jaque-leen.github.io/homework_generate_password/
