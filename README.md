@@ -9,9 +9,9 @@ Application that enables employees to generate random passwords based on criteri
 
 The following image shows the web application's apperance and functionality:
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/GenPassword.png)
+![The Password Generator application displays a red button to "Generate Password".](./assets/GenPassword.png)
 
-![The upon slecting password criteria, Password Generator application displays a red button to "Get Password".](./Assets/GetPassword.png)
+![The upon slecting password criteria, Password Generator application displays a red button to "Get Password".](./assets/GetPassword.png)
 
 ## Link
 
